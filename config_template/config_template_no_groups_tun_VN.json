@@ -92,11 +92,11 @@
         {
             "tag": "Chọn Server",
             "type": "selector",
-            "default": "TỰ động chọn",
+            "default": "Tự động chọn",
             "outbounds": ["Tự động chọn"]
         },
         {
-            "tag": "TỰ động chọn",
+            "tag": "Tự động chọn",
             "type": "urltest",
             "outbounds": ["{all}"],
             "url": "http://www.gstatic.com/generate_204",
