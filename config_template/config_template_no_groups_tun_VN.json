@@ -92,8 +92,11 @@
         {
             "tag": "Chọn Server",
             "type": "selector",
-            "default": "Chọn Server",
-            "outbounds": ["{all}"],
+            "outbounds":[
+                "auto",
+                "direct",
+                "{all}"
+              ]
         },
         {
             "type": "direct",
