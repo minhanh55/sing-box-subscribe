@@ -92,16 +92,8 @@
         {
             "tag": "Chọn Server",
             "type": "selector",
-            "default": "Tự động chọn",
-            "outbounds": ["Tự động chọn"]
-        },
-        {
-            "tag": "Tự động chọn",
-            "type": "urltest",
+            "default": "Chọn Server",
             "outbounds": ["{all}"],
-            "url": "http://www.gstatic.com/generate_204",
-            "interval": "10m",
-            "tolerance": 50
         },
         {
             "type": "direct",
